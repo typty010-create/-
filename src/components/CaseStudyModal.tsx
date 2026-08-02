@@ -37,7 +37,7 @@ export const CaseStudyModal: React.FC<CaseStudyModalProps> = ({ project, onClose
           <div className="sticky top-0 z-20 flex items-center justify-between px-6 py-4 bg-white/90 backdrop-blur-md border-b border-gray-100">
             <div>
               <span className="text-xs font-bold text-[#9933FF] uppercase tracking-wider">
-                {project.category} CASE STUDY
+                PROJECT CASE STUDY
               </span>
               <h3 className="text-lg sm:text-xl font-bold text-[#111111]">
                 {project.title}
@@ -64,9 +64,6 @@ export const CaseStudyModal: React.FC<CaseStudyModalProps> = ({ project, onClose
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
                 <div className="absolute bottom-6 left-6 right-6 text-white space-y-2">
-                  <span className="px-3 py-1 rounded-full text-xs font-bold bg-[#9933FF] text-white">
-                    {project.category}
-                  </span>
                   <h2 className="text-2xl sm:text-3xl font-extrabold text-white leading-tight drop-shadow-md">
                     {project.title}
                   </h2>
@@ -76,9 +73,6 @@ export const CaseStudyModal: React.FC<CaseStudyModalProps> = ({ project, onClose
 
             {!project.heroImage && (
               <div className="p-6 sm:p-8 rounded-2xl bg-[#111111] text-white space-y-3 border border-gray-800 shadow-md">
-                <span className="px-3 py-1 rounded-full text-xs font-bold bg-[#9933FF] text-white">
-                  {project.category}
-                </span>
                 <h2 className="text-2xl sm:text-3xl font-extrabold text-white leading-tight">
                   {project.title}
                 </h2>
@@ -160,7 +154,7 @@ export const CaseStudyModal: React.FC<CaseStudyModalProps> = ({ project, onClose
                 <div className="text-xs font-semibold text-[#9933FF] uppercase tracking-wider mb-1">
                   정량적 / 정성적 성과
                 </div>
-                <p className="text-lg sm:text-xl font-bold text-white break-keep">
+                <p className="text-lg sm:text-xl font-bold text-white break-keep whitespace-pre-line leading-snug">
                   {caseStudy.results}
                 </p>
               </div>

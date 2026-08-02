@@ -89,10 +89,10 @@ export const Process: React.FC = () => {
                       </div>
                       <div>
                         <span className="text-xs font-bold text-[#9933FF] uppercase tracking-wider block">
-                          STEP {step.stepNumber} • {step.subtitle}
+                          STEP {step.stepNumber} • {step.title}
                         </span>
                         <h3 className="text-xl font-bold text-[#111111] mt-0.5">
-                          {step.title}
+                          {step.subtitle}
                         </h3>
                       </div>
                     </div>

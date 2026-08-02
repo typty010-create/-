@@ -77,22 +77,10 @@ export const Projects: React.FC = () => {
                       referrerPolicy="no-referrer"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     />
-                    <div className="absolute top-3 left-3">
-                      <span className="px-3 py-1 rounded-full text-xs font-bold bg-white/95 backdrop-blur-md text-[#9933FF] border border-purple-100 shadow-xs">
-                        {proj.category}
-                      </span>
-                    </div>
                   </div>
                 )}
 
                 <div className="p-6 space-y-3">
-                  {!proj.heroImage && (
-                    <div className="flex items-center justify-between mb-2">
-                      <span className="px-3 py-1 rounded-full text-xs font-bold bg-purple-50 text-[#9933FF] border border-purple-100">
-                        {proj.category}
-                      </span>
-                    </div>
-                  )}
                   <h3 className="text-xl font-bold text-[#111111] group-hover:text-[#9933FF] transition-colors leading-snug">
                     {proj.title}
                   </h3>
