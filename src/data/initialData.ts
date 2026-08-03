@@ -1,11 +1,11 @@
 import { PortfolioData } from '../types';
 
 import heroBgImg from '../assets/images/hero_bg_1784986510465.jpg';
-import aiPlaylistThumb from '../assets/images/playlist_thumb_new_1785689143480.jpg';
-import japanShortsThumb from '../assets/images/clean_city_shorts_1785679118941.jpg';
-import affiliateThumb from '../assets/images/clean_office_desk_1785679132618.jpg';
-import partyPlannerThumb from '../assets/images/clean_party_room_1785679146449.jpg';
-import programSajuThumb from '../assets/images/clean_saju_desk_1785679162844.jpg';
+import aiPlaylistThumb from '../assets/images/thumb_ai_playlist_1785678893120.jpg';
+import japanShortsThumb from '../assets/images/thumb_japan_shorts_1785678909650.jpg';
+import affiliateThumb from '../assets/images/thumb_affiliate_1785678923297.jpg';
+import partyPlannerThumb from '../assets/images/thumb_party_planner_1785678935380.jpg';
+import programSajuThumb from '../assets/images/thumb_program_saju_1785678947334.jpg';
 import rec1Img from '../assets/images/rec_kakaotalk_1_1784986600421.jpg';
 
 export const initialData: PortfolioData = {
