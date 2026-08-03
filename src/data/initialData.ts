@@ -6,7 +6,15 @@ import japanShortsThumb from '../assets/images/thumb_japan_shorts_1785678909650.
 import affiliateThumb from '../assets/images/thumb_affiliate_1785678923297.jpg';
 import partyPlannerThumb from '../assets/images/thumb_party_planner_1785678935380.jpg';
 import programSajuThumb from '../assets/images/thumb_program_saju_1785678947334.jpg';
-import rec1Img from '../assets/images/rec_kakaotalk_1_1784986600421.jpg';
+import rec1Img from '../assets/images/review1.jpg';
+import rec2Img from '../assets/images/review2.jpg';
+import rec3Img from '../assets/images/review3.jpg';
+import rec4Img from '../assets/images/review4.jpg';
+import rec5Img from '../assets/images/review5.jpg';
+import rec6Img from '../assets/images/review6.jpg';
+import rec7Img from '../assets/images/review7.jpg';
+import rec8Img from '../assets/images/review8.jpg';
+import rec9Img from '../assets/images/review9.jpg';
 
 export const initialData: PortfolioData = {
   hero: {
@@ -216,11 +224,16 @@ export const initialData: PortfolioData = {
     },
   ],
   recommendations: [
-    {
-      id: 'rec-1',
-      image: rec1Img,
-    },
-  ],
+  { id: 'rec-1', image: rec1Img },
+  { id: 'rec-2', image: rec2Img },
+  { id: 'rec-3', image: rec3Img },
+  { id: 'rec-4', image: rec4Img },
+  { id: 'rec-5', image: rec5Img },
+  { id: 'rec-6', image: rec6Img },
+  { id: 'rec-7', image: rec7Img },
+  { id: 'rec-8', image: rec8Img },
+  { id: 'rec-9', image: rec9Img },
+],
   skills: [
     {
       id: 'sk-1',
