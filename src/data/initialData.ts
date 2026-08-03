@@ -269,7 +269,7 @@ export const initialData: PortfolioData = {
     hookSubtitle: '배움을 실제 변화로 설계하겠습니다',
     phone: '010-4010-2408',
     email: 'typty0@naver.com',
-    resumeUrl: '[콘텐츠 PM]성자현.pdf',
+    resumeUrl: '[콘텐츠PM] 성자현 이력서.pdf',
     resumeFileName: '[콘텐츠PM] 성자현 이력서',
   },
 };
